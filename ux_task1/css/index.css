@@ -1,0 +1,128 @@
+html, body {
+    font-family: Arial;
+    background-color: #E3F1F9;
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+}
+.container {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+}
+.header-line {
+    background-color: #111A29;
+    height: 170px;
+}
+.header {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 100%;
+}
+.header-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    color: #FFFFFF;
+}
+.line1 {
+    font-size: 30px;
+}
+.line2 {
+    color: #A0B2BC;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.line3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.naming-line {
+    height: 50px;
+    background-color: #BFD4DE;
+}
+.naming-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    color: #364654;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.wrapper-content {
+    padding-bottom: 60px;
+}
+.content-line {
+    background-color: #FFFFFF;
+}
+.content-descr {
+    color: #364654;
+    font-style: italic;
+    padding: 30px 0 40px 30px;
+}
+.column {
+    display: inline-block;
+    width: 45%;
+}
+.cell {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    color: #364654;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+    width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.required::after {
+    content: '*';
+}
+input, select {
+    margin-left: 20px;
+    width: 250px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #D9D9D9;
+}
+.footer-line {
+    background-color: #364654;
+    height: 40px;
+    margin-top: -40px;
+}
+.footer-text {
+    color: #969CA1;
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    font-size: 13px;
+}
+div.footer-text > a {
+    color: #969CA1;
+    text-decoration: none;
+}
+.footer-right {
+    float: right;
+}
+div.footer-right > a {
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.button {
+    width: 120px;
+    background-color: #364654;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 30px 0 30px 50px;
+    border-radius: 5px;
+}
